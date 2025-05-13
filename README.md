@@ -48,7 +48,7 @@ To evaluate an LLM, please follow these steps:
 ## License
 For the programs within SV-Benchmarks, please refer to the licenses included with each code file in the `sv-benchmarks` folder for detailed licensing information.
 
-The race annotations and the evaluation code of DRDBench are licensed under the Apache-2.0 license.
+The race annotations and the evaluation code of DRDBench are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 
 
