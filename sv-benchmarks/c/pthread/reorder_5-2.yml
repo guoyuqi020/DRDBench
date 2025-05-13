@@ -1,0 +1,14 @@
+format_version: '2.0'
+
+# very old file name: reorder_5_false-unreach-call.c
+# old file name: reorder_5.c
+input_files: 'reorder_5-2.i'
+
+properties:
+  - property_file: ../properties/valid-memsafety.prp
+    expected_verdict: false
+    subproperty: valid-deref
+
+options:
+  language: C
+  data_model: ILP32

@@ -1,0 +1,12 @@
+format_version: '2.0'
+
+# old file name: 43_NetBSD__sysmon_power__sliced_true-unreach-call.i
+input_files: '43_NetBSD_sysmon_power_sliced_2.i'
+
+properties:
+  - property_file: ../properties/no-data-race.prp
+    expected_verdict: false
+
+options:
+  language: C
+  data_model: ILP32

@@ -1,0 +1,18 @@
+format_version: '2.0'
+
+# original top comment:  Copied & modified from 13/28.
+input_files: '13-privatized_31-traces-mine-vs-mutex_true.i'
+
+properties:
+  - property_file: ../properties/unreach-call.prp
+    expected_verdict: true
+  - property_file: ../properties/valid-memsafety.prp
+    expected_verdict: true
+  - property_file: ../properties/no-overflow.prp
+    expected_verdict: true
+  - property_file: ../properties/no-data-race.prp
+    expected_verdict: true
+
+options:
+  language: C
+  data_model: ILP32

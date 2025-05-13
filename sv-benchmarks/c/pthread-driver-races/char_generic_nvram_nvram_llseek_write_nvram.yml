@@ -1,0 +1,13 @@
+format_version: '2.0'
+
+# old file name: char_generic_nvram_nvram_llseek_write_nvram_true-unreach-call.i
+input_files: 'char_generic_nvram_nvram_llseek_write_nvram.i'
+
+properties:
+  # Reads from uninitialized memory
+  - property_file: ../properties/def-behavior.prp
+    expected_verdict: false
+
+options:
+  language: C
+  data_model: ILP32

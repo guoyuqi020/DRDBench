@@ -1,0 +1,17 @@
+format_version: '2.0'
+
+# old file name: fkp2013_variant_false-unreach-call.i
+input_files: 'fkp2013_variant-2.i'
+
+properties:
+#  - property_file: ../properties/unreach-call.prp
+#    expected_verdict: false
+#  - property_file: ../properties/no-overflow.prp
+#    expected_verdict: true
+  - property_file: ../properties/coverage-branches.prp
+  - property_file: ../properties/no-data-race.prp
+    expected_verdict: false
+
+options:
+  language: C
+  data_model: ILP32

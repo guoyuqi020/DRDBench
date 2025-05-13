@@ -1,0 +1,15 @@
+deagle
+deagle_exe
+deagle_logs
+baseline*
+shared_locations*
+dataracebench
+LLMconfig.ini
+.vscode
+.venv
+__pycache__
+*.py
+!SVBench.py
+linePairs.pkl
+!Qwen2.5-Coder-Instruct-32B.py
+!Qwen2.5-Coder-Instruct-32B_greedy.py
